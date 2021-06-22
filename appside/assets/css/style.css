@@ -1931,7 +1931,8 @@ ul {
 }
 .header-area.header-bg-10 {
   background-color: #fff;
-  background-image: url(../img/bg/background-uvd.png);
+  /* background-image: url(../img/bg/background-uvd.png); */
+  background-image: url(../img/bg/header-bg.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -4500,6 +4501,9 @@ ul {
   z-index: 0;
   /* background-image: url("../img/bg/header-bg-9.jpg"); */
   background-image: url("../img/UVD1.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   text-align: center;
   border-radius: 10px;
   margin-bottom: -200px;
