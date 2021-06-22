@@ -5577,3 +5577,22 @@ ul {
   font-weight: 500;
   line-height: 50px;
 }
+
+.hs-form-field input[type="text"],
+.hs-form-field input[type="email"],
+.hs-form-field input[type="phone"],
+.hs-form-field input[type="number"],
+.hs-form-field input[type="tel"],
+.hs-form-field input[type="date"],
+.hs-form-field textarea {
+  border-radius: 5px !important;
+}
+
+.hs-button {
+  border-radius: 5px !important;
+}
+
+input[type="submit"] {
+  background: rgb(80, 10, 222) !important;
+  border-radius: 5px !important;
+}
