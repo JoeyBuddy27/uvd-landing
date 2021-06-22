@@ -1671,8 +1671,6 @@ ul {
   color: var(--main-color-one);
 }
 
-
-
 @media only screen and (max-width: 991px) {
   .navbar-area .nav-container {
     position: relative;
@@ -4500,7 +4498,8 @@ ul {
   padding: 90px 0 100px 0;
   position: relative;
   z-index: 0;
-  background-image: url("../img/bg/header-bg-9.jpg");
+  /* background-image: url("../img/bg/header-bg-9.jpg"); */
+  background-image: url("../img/UVD1.JPG");
   text-align: center;
   border-radius: 10px;
   margin-bottom: -200px;
@@ -4542,7 +4541,8 @@ ul {
 }
 
 .footer-top {
-  padding: 100px 0 95px 0;
+  padding: 50px 0 50px 0;
+  text-align: center;
 }
 
 .copyright-inner {
@@ -4550,6 +4550,7 @@ ul {
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
   padding: 20px 0;
+  text-align: center;
 }
 .copyright-inner .left-content-area {
   display: inline-block;
@@ -4569,6 +4570,10 @@ ul {
 .about_widget .footer-logo {
   display: block;
   margin-bottom: 25px;
+}
+
+.footer-logo img {
+  width: 250px;
 }
 
 .about_widget p {
